@@ -1,0 +1,62 @@
+.mainBody {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 10px
+}
+
+.bodyCard {
+    background-color: lightslategrey;
+    color: whitesmoke;
+    padding: 25px;
+    position: relative;
+
+}
+
+.profileItem {
+    display: flex;
+    align-items: center;
+}
+
+.keyField {
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 150px;
+
+}
+
+
+
+.notConnected {
+    font-weight: bold;
+
+
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+
+
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+
+h2 {
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+}

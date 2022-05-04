@@ -1,0 +1,22 @@
+form {
+    display: flex;
+
+}
+
+label,
+button {
+    display: flex;
+    margin: 25px;
+    font-size: 30px;
+    /* align-content: center; */
+
+}
+
+input[type=checkbox] {
+    /* display: flex; */
+    /* margin: 25px; */
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 30px;
+}

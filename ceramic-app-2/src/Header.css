@@ -1,0 +1,9 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke
+}
